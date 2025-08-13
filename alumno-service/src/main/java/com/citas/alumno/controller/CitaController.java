@@ -65,9 +65,9 @@ public class CitaController {
         return ResponseEntity.ok(c);
     }
 
-@PutMapping("/{id}")
-public ResponseEntity<Cita> actualizarCita(@PathVariable Long id, @RequestBody Cita datosCita) {
-    return repository.findById(id)
+    @PutMapping("/{id}")
+    public ResponseEntity<Cita> actualizarCita(@PathVariable Long id, @RequestBody Cita datosCita) {
+        return repository.findById(id)
             .map(cita -> {
                 cita.setAlumno(datosCita.getAlumno());
                 cita.setProfesor(datosCita.getProfesor());
@@ -81,8 +81,7 @@ public ResponseEntity<Cita> actualizarCita(@PathVariable Long id, @RequestBody C
                 return ResponseEntity.ok(citaActualizada);
             })
             .orElseGet(() -> ResponseEntity.notFound().build());
-}
-
+    }
 
     // Eliminar cita (usado por admin)
     @DeleteMapping("/{id}")

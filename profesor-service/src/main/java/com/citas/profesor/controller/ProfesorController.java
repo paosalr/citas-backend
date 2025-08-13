@@ -36,4 +36,12 @@ public class ProfesorController {
         ResponseEntity<Object> resp = restTemplate.exchange(url, HttpMethod.PUT, ent, Object.class);
         return ResponseEntity.status(resp.getStatusCode()).body(resp.getBody());
     }
+    @GetMapping("/list")
+    public ResponseEntity<?> obtenerListaProfesores() {
+        String url = alumnoUrl + "/prof/list"; // coincide con alumno-service
+        ResponseEntity<Object[]> resp = restTemplate.getForEntity(url, Object[].class);
+        return ResponseEntity.status(resp.getStatusCode()).body(Arrays.asList(resp.getBody()));
+    }
+
+
 }
