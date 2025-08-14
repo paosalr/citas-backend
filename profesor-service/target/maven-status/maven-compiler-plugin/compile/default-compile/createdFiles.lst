@@ -1,3 +1,3 @@
-com/citas/profesor/ProfesorServiceApplication.class
-com/citas/profesor/config/SecurityConfig.class
-com/citas/profesor/controller/ProfesorController.class
+com\citas\profesor\controller\ProfesorController.class
+com\citas\profesor\ProfesorServiceApplication.class
+com\citas\profesor\config\SecurityConfig.class

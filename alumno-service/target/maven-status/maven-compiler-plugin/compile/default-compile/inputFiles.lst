@@ -1,5 +1,6 @@
-/Users/paolasalazar/citas-microservicios/alumno-service/src/main/java/com/citas/alumno/model/Cita.java
-/Users/paolasalazar/citas-microservicios/alumno-service/src/main/java/com/citas/alumno/AlumnoServiceApplication.java
-/Users/paolasalazar/citas-microservicios/alumno-service/src/main/java/com/citas/alumno/repository/CitaRepository.java
-/Users/paolasalazar/citas-microservicios/alumno-service/src/main/java/com/citas/alumno/config/SecurityConfig.java
-/Users/paolasalazar/citas-microservicios/alumno-service/src/main/java/com/citas/alumno/controller/CitaController.java
+C:\Users\litzi\Desktop\kiosco\kiosko-backend\citas-backend\alumno-service\src\main\java\com\citas\alumno\controller\CitaController.java
+C:\Users\litzi\Desktop\kiosco\kiosko-backend\citas-backend\alumno-service\src\main\java\com\citas\alumno\repository\CitaRepository.java
+C:\Users\litzi\Desktop\kiosco\kiosko-backend\citas-backend\alumno-service\src\main\java\com\citas\alumno\AlumnoServiceApplication.java
+C:\Users\litzi\Desktop\kiosco\kiosko-backend\citas-backend\alumno-service\src\main\java\com\citas\alumno\controller\ProfesorAlumnoController.java
+C:\Users\litzi\Desktop\kiosco\kiosko-backend\citas-backend\alumno-service\src\main\java\com\citas\alumno\model\Cita.java
+C:\Users\litzi\Desktop\kiosco\kiosko-backend\citas-backend\alumno-service\src\main\java\com\citas\alumno\config\SecurityConfig.java
